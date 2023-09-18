@@ -105,9 +105,10 @@
 /* blog-2 */
 .blog-2{
     background-color: var(--primary);
-    padding-top: 150px;
+    padding-top: 200px;
     margin-top: -70px;
     clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0% 100%);
+    
 }
 .blog-2 h1{
     font-family: var(--head);
@@ -123,6 +124,8 @@
     align-items: center;
     margin-top: 100px;
     flex-wrap: wrap;
+    max-width: 1330px;
+    margin: 0px auto;
 }
 .blog-2Top h1{
     font-family: var(--head);
@@ -149,7 +152,9 @@
     display: flex;
     justify-content: space-around;
     margin-top: 80px;
-
+    flex-wrap: wrap;
+    max-width: 1330px;
+    margin: 0px auto;
 }
 .blog-2bottom h3{
     font-size: var(--font-h-T);
@@ -187,6 +192,8 @@
     .mobile{
         height: 350px;
     }
+    /* .blog-1 */
+    
 }
 @media (max-width:650px){
     /* hero section */
@@ -215,5 +222,13 @@
         bottom: 0px;
         left: 50px;
         height: 450px;
+    }
+    /* .blog-1 */
+    .blog-1 img{
+        width: 250px;
+    }
+    /* .blog-2 */
+    .blog-2 img{
+        width: 250px;
     }
 }
