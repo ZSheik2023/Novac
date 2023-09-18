@@ -71,3 +71,39 @@
     color: var(--white);
     transition: 300ms;
 }
+@media(max-width:1024px){
+    .btn-1{
+        font-size: var(--font-p2);
+        padding: 8px 20px;
+    }
+    .btn-2{
+        font-size: var(--font-p2);
+        padding: 8px 20px;
+    }
+    .btn-3{
+        font-size: var(--font-p2);
+        padding: 8px 20px;
+    }
+    .btn-4{
+        font-size: var(--font-p2);
+        padding: 8px 20px;
+    }
+}
+@media(max-width:650px){
+    .btn-1{
+        font-size: var(--font-p3);
+        padding: 8px 15px;
+    }
+    .btn-2{
+        font-size: var(--font-p3);
+        padding: 8px 15px;
+    }
+    .btn-3{
+        font-size: var(--font-p3);
+        padding: 8px 15px;
+    }
+    .btn-4{
+        font-size: var(--font-p3);
+        padding: 8px 15px;
+    }
+}

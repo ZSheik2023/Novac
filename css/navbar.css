@@ -25,6 +25,10 @@
     margin: auto;
     padding: 10px 0px;
 }
+.btn-container{
+    display: flex;
+    align-items: center;
+}
 .navbar div ul{
     display: flex;
     justify-content: space-around;
@@ -51,4 +55,25 @@
     -webkit-text-fill-color: transparent;
     font-size: var(--font-h-T);
     font-family: var(--head);
+}
+@media (max-width:1330px){
+    .navbar nav{
+        justify-content: space-around;
+    }
+    .logo{
+        font-size: var(--font-h-T);
+    }
+}
+@media (max-width:850px){
+    .navbar div ul{
+        display: none;
+    }
+}
+@media (max-width:650px){
+    .navbar div ul{
+        display: none;
+    }
+    .logo{
+        font-size: var(--font-p1);
+    }
 }
