@@ -1,0 +1,73 @@
+:root{
+    --primary:#000000;
+    --Secondary:#5E4DFE;
+    --accent:#FF6E69;
+    --white:#ffffff;
+    --head:'Istok Web', sans-serif;
+    --body:'Inter', sans-serif;
+    --font-h-D:48px;
+    --font-h-d2:40px;
+    --font-h-T:36px;
+    --font-h-M:32px;
+    --font-p1:24px;
+    --font-p2:20px;
+    --font-p3:14px;
+}
+.btn-1{
+    border-radius: 13.458px;
+    background: var(--accent);
+    color: var(--white);
+    font-size: var(--font-p1);
+    padding:  8px 25px;
+    border: 2px solid var(--accent);
+    font-weight: 600;
+    cursor:pointer;
+}
+.btn-1:hover{
+    background-color: var(--Secondary);
+    border: 2px solid var(--Secondary);
+    transition: 300ms;
+}
+.btn-2{
+    border-radius: 13.458px;
+    background: var(--Secondary);
+    color: var(--white);
+    font-size: var(--font-p1);
+    padding:  8px 25px;
+    border: 2px solid var(--Secondary);
+    font-weight: 600;
+    cursor:pointer;
+}
+.btn-2:hover{
+    background-color: var(--accent);
+    border: 2px solid var(--accent);
+    transition: 300ms;
+}
+.btn-3{
+    border-radius: 13.458px;
+    color: var(--Secondary);
+    font-size: var(--font-p1);
+    padding:  8px 25px;
+    border: 3px solid var(--Secondary);
+    font-weight: 600;
+    cursor:pointer;
+}
+.btn-3:hover{
+    background-color: var(--Secondary);
+    color: var(--white);
+    transition: 300ms;
+}
+.btn-4{
+    border-radius: 13.458px;
+    color: var(--accent);
+    font-size: var(--font-p1);
+    padding:  8px 25px;
+    border: 3px solid var(--accent);
+    font-weight: 600;
+    cursor:pointer;
+}
+.btn-4:hover{
+    background-color: var(--accent);
+    color: var(--white);
+    transition: 300ms;
+}

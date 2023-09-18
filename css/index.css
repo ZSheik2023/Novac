@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary:#000000;
+    --Secondary:#5E4DFE;
+    --accent:#FF6E69;
+    --white:#ffffff;
+    --head:'Istok Web', sans-serif;
+    --body:'Inter', sans-serif;
+    --font-h-D:48px;
+    --font-h-d2:40px;
+    --font-h-T:36px;
+    --font-h-M:32px;
+    --font-p1:24px;
+    --font-p2:20px;
+    --font-p3:14px;
+}
+
+.hero{
+    background-color: var(--primary);
+    color: var(--white);
+    clip-path: polygon(0 0, 100% 0%, 100% 70%, 0% 100%);
+}
+.hero div{
+    max-width: 1330px;
+    margin: 0px auto;
+    padding: 50px;
+}
+.hero h1{
+    color: var(--Secondary);
+    font-size: var(--font-h-D);
+    font-family: var(--head);
+}
+.hero p{
+    font-size: var(--font-p2);
+    font-family: var(--body);
+    font-weight: 500;
+}
+.hero a{
+    font-size: var(--font-p1);
+    font-weight: 600;
+    font-family: var(--body);
+    text-decoration: none;
+}
+.product-img{
+    max-width: 1220px;
+    margin: 20px auto;
+    position: relative;
+    z-index: 5;
+}
+.desktop{
+    width: 850px;
+}
+.mobile{
+    position: relative;
+    z-index: 3;
+    right: 60px;
+    bottom: 70px;
+}

@@ -1,0 +1,54 @@
+:root{
+    --primary:#000000;
+    --Secondary:#5E4DFE;
+    --accent:#FF6E69;
+    --white:#ffffff;
+    --head:'Istok Web', sans-serif;
+    --body:'Inter', sans-serif;
+    --font-h-D:48px;
+    --font-h-d2:40px;
+    --font-h-T:36px;
+    --font-h-M:32px;
+    --font-p1:24px;
+    --font-p2:20px;
+    --font-p3:14px;
+}
+/* Navbar */
+.navbar{
+    background-color: var(--primary);
+}
+.navbar nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1330px;
+    margin: auto;
+    padding: 10px 0px;
+}
+.navbar div ul{
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
+}
+
+.navbar div ul a{
+    color: var(--white);
+    font-size: var(--font-p2);
+    font-family: var(--body);
+    list-style: none;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbar div ul a:hover{
+    color: var(--Secondary);
+    transition: 500ms;
+}
+.logo {
+    background: linear-gradient(259deg, var(--accent) 80%, var(--Secondary) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: var(--font-h-T);
+    font-family: var(--head);
+}
