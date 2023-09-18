@@ -19,10 +19,12 @@
     --font-p3:14px;
 }
 
+/* hero section */
 .hero{
     background-color: var(--primary);
     color: var(--white);
     clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+    padding-top: 50px;
 }
 .hero div{
     max-width: 1330px;
@@ -58,7 +60,7 @@
     margin: 20px auto;
     margin-top: -350px;
     position: relative;
-    z-index: 5;
+    z-index: 2;
 }
 .desktop{
     width: 850px;
@@ -69,8 +71,100 @@
     right: 60px;
     bottom: 70px;
 }
+/* blog-1 */
+.blog-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+}
+.blog-1 h1{
+    font-family: var(--head);
+    font-size: var(--font-h-D);
+    font-weight: 600;
+    color: var(--Secondary);
+}
+.blog-1 p{
+    font-family: var(--body);
+    font-size: var(--font-p2);
+    font-weight: 500;
+    color: var(--primary);
+    margin-left:30px ;
+    margin-top: 20px;
+}
+.blog-1 img{
+    max-width: 523px;
+}
+.blog-1 button{
+    margin-left:30px ;
+    margin-top: 20px;
+}
+/* blog-2 */
+.blog-2{
+    background-color: var(--primary);
+    padding-top: 150px;
+    margin-top: -70px;
+    clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0% 100%);
+}
+.blog-2 h1{
+    font-family: var(--head);
+    font-size: var(--font-h-D);
+    font-weight: 600;
+    color: var(--white);
+    width: fit-content;
+    margin: 30px auto;
+}
+.blog-2Top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+.blog-2Top h1{
+    font-family: var(--head);
+    font-size: var(--font-h-D);
+    font-weight: 600;
+    color: var(--accent);
+}
+.blog-2Top p{
+    font-family: var(--body);
+    font-size: var(--font-p2);
+    font-weight: 500;
+    color: var(--white);
+    margin-left:30px ;
+    margin-top: 20px;
+}
+.blog-2Top img{
+    max-width: 523px;
+}
+.blog-2Top button{
+    margin-left:30px ;
+    margin-top: 20px;
+}
+.blog-2bottom{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
 
+}
+.blog-2bottom h3{
+    font-size: var(--font-h-T);
+    font-family: var(--head);
+    color: var(--Secondary);
+    font-weight: 600;
+}
+.blog-2bottom p{
+    font-size: var(--font-p1);
+    font-family: var(--body);
+    color: var(--white);
+    font-weight: 600;
+}
 @media (max-width:1200px){
+    /* hero section */
     .hero h1{
         font-size: var(--font-h-d2);
         padding-left: 40px;
@@ -95,6 +189,7 @@
     }
 }
 @media (max-width:650px){
+    /* hero section */
     .hero h1{
         font-size: var(--font-h-T);
         padding-left: 20px;
@@ -119,5 +214,6 @@
         right: 0px;
         bottom: 0px;
         left: 50px;
+        height: 450px;
     }
 }

@@ -16,6 +16,8 @@
 /* Navbar */
 .navbar{
     background-color: var(--primary);
+    position: relative;
+    z-index: 5;
 }
 .navbar nav{
     display: flex;
@@ -25,7 +27,8 @@
     margin: auto;
     padding: 10px 0px;
 }
-.btn-container{
+
+#btn-container{
     display: flex;
     align-items: center;
 }
@@ -56,6 +59,37 @@
     font-size: var(--font-h-T);
     font-family: var(--head);
 }
+#menu{
+    display: none;
+}
+.nav-menu-container{
+    position: fixed;
+    z-index: 4;
+}
+#nav-menu{
+    margin: 0px 5%;
+    background-color: var(--accent);
+    border-radius: 15px;
+    position: relative;
+    z-index: 4;
+    width: 90vw;
+    bottom: 350px;
+    transition: 400ms;
+}
+#nav-menu ul a{
+    color: var(--primary);
+    font-size: var(--font-p2);
+    font-weight: 600;
+    font-family: var(--body);
+    text-decoration: none;
+    color: var(--white);
+}
+#nav-menu ul a li{
+    margin: 0px auto;
+    padding: 25px 0px;
+    width: fit-content;
+    list-style: none;
+}
 @media (max-width:1330px){
     .navbar nav{
         justify-content: space-around;
@@ -64,9 +98,12 @@
         font-size: var(--font-h-T);
     }
 }
-@media (max-width:850px){
+@media (max-width:1024px){
     .navbar div ul{
         display: none;
+    }
+    #menu{
+        display: block;
     }
 }
 @media (max-width:650px){
