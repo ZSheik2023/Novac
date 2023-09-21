@@ -1,0 +1,69 @@
+:root{
+    --primary:#000000;
+    --Secondary:#5E4DFE;
+    --accent:#FF6E69;
+    --white:#ffffff;
+    --head:'Istok Web', sans-serif;
+    --body:'Inter', sans-serif;
+    --font-h-D:48px;
+    --font-h-d2:40px;
+    --font-h-T:36px;
+    --font-h-M:32px;
+    --font-p1:24px;
+    --font-p2:20px;
+    --font-p3:14px;
+}
+footer{
+    background-color: #2C256A;
+    padding-bottom: 50px;
+}
+footer .logo h1{
+    font-size: var(--font-h-d2);
+}
+footer div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+footer div ul {
+    display: flex;
+
+    justify-content: space-between;
+}
+footer div a {
+    font-family: var(--body);
+    text-decoration: none;
+    color: var(--white);
+    font-size: var(--font-p1);
+    margin: 50px;
+    font-weight: 700;
+}
+footer div a :hover {
+    color: var(--accent);
+}
+footer .icon{
+    color: var(--white);
+    font-size: var(--font-h-T);
+    margin: 0px 5px;
+    cursor: pointer;
+}
+footer .icon:hover{
+    color: var(--accent);
+}
+footer div ul li{
+    list-style: none;
+}
+footer h2{
+    font-family: var(--head);
+    color: var(--white);
+}
+.term{
+    margin: 0px 50px;
+    font-family: var(--body);
+    color: var(--white);
+    font-weight: 600;
+}
+.term:hover{
+    color: var(--accent);
+}

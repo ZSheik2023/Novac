@@ -51,6 +51,7 @@
     border: 3px solid var(--Secondary);
     font-weight: 600;
     cursor:pointer;
+    background-color: transparent;
 }
 .btn-3:hover{
     background-color: var(--Secondary);
@@ -65,6 +66,7 @@
     border: 3px solid var(--accent);
     font-weight: 600;
     cursor:pointer;
+    background-color: transparent;
 }
 .btn-4:hover{
     background-color: var(--accent);
