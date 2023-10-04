@@ -197,3 +197,43 @@
     font-family: var(--head);
     font-size: var(--font-p1);
 }
+/* blog-newsletter */
+.blog-4{
+    background-color: var(--primary);
+    padding: 100px 0px;
+}
+.blog-newsletter{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1330px;
+    align-items: center;
+    margin: 0px auto;
+}
+.blog-newsletter img{
+    width: 530px;
+}
+.blog-newsletter h1{
+    font-family: var(--head);
+    color: var(--Secondary);
+    font-size: var(--font-h-D);
+}
+.blog-newsletter p{
+    font-family: var(--body);
+    font-size: var(--font-p2);
+    color: var(--white);
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.blog-newsletter form input{
+    width: 400px;
+    height: 36px;
+    padding: 12px 10px;
+    font-size: var(--font-p1);
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.blog-newsletter button{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 32px;
+}
