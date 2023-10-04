@@ -3,88 +3,197 @@
     padding: 0;
 }
 
-:root{
-    --primary:#000000;
-    --Secondary:#5E4DFE;
-    --accent:#FF6E69;
-    --white:#ffffff;
-    --head:'Istok Web', sans-serif;
-    --body:'Inter', sans-serif;
-    --font-h-D:48px;
-    --font-h-d2:40px;
-    --font-h-T:36px;
-    --font-h-M:32px;
-    --font-p1:24px;
-    --font-p2:20px;
-    --font-p3:14px;
+:root {
+    --primary: #000000;
+    --Secondary: #5E4DFE;
+    --accent: #FF6E69;
+    --white: #ffffff;
+    --head: 'Istok Web', sans-serif;
+    --body: 'Inter', sans-serif;
+    --font-h-D: 48px;
+    --font-h-d2: 40px;
+    --font-h-T: 36px;
+    --font-h-M: 32px;
+    --font-p1: 24px;
+    --font-p2: 20px;
+    --font-p3: 14px;
 }
 
 /* about-hero */
-.hero-about{
+.hero-about {
     background-color: var(--primary);
 }
-.hero-about div h1{
+
+.hero-about div h1 {
     color: var(--accent);
     font-family: var(--head);
     font-size: var(--font-h-D);
 }
-.hero-btn{
+
+.hero-btn {
     margin: 20px 0px;
 }
-.hero-about div p{
+
+.hero-about div p {
     color: var(--white);
     font-family: var(--body);
     font-size: var(--font-p2);
 }
-.hero-img{
+
+.hero-img {
     display: flex;
     justify-content: center;
-    
+
 }
-.hero-img img{
+
+.hero-img img {
     width: 860px;
     margin: 40px auto;
 }
-.hero-about .hero-content{
+
+.hero-about .hero-content {
     display: flex;
     justify-content: space-around;
     padding-top: 40px;
     padding-bottom: 30px;
 }
+
 /* blog-1 */
-.blog-1{
-   display: flex; 
-   align-items: center;
-   justify-content: space-around;
-   margin: 70px;
+.blog-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 70px;
 }
-.blog-1 img{
+
+.blog-1 img {
     width: 450px
 }
-.blog-1 div h1{
+
+.blog-1 div h1 {
     color: var(--Secondary);
     font-family: var(--head);
     font-size: var(--font-h-D);
 }
-.blog-1 div h3{
+
+.blog-1 div h3 {
     color: var(--primary);
     font-family: var(--head);
     font-size: var(--font-h-M);
 }
-.blog-1 div .blog-1-f{
+
+.blog-1 div .blog-1-f {
     display: flex;
     justify-content: space-between;
     margin: 50px auto;
 }
-.blog-1 div .blog-1-f div div{
+
+.blog-1 div .blog-1-f div div {
     display: flex;
     align-items: center;
 }
 
-.blog-1 div p{
+.blog-1 div p {
     font-family: var(--body);
     font-size: var(--font-p2);
 }
-.blog-1 div img{
+
+.blog-1 div img {
     width: 72px
+}
+
+/* blog-2 */
+.blog-2 {
+    background-color: var(--primary);
+    padding: 50px 0px;
+}
+.blog-2-c{
+    max-width: 1330px;
+    margin: 0px auto;
+}
+.blog-2 h1 {
+    color: var(--white);
+    font-family: var(--head);
+    font-size: var(--font-h-D);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.blog-2 .blog-sections {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.blog-2 .blog-sections h3 {
+    color: var(--accent);
+    font-family: var(--head);
+    font-size: var(--font-h-M);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 10px 0px;
+}
+.blog-2 .blog-sections p {
+    color: var(--white);
+    font-family: var(--body);
+    font-size: var(--font-p2);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.blog-2 .blog-sections p {
+    color: var(--white);
+    font-family: var(--body);
+    font-size: var(--font-p2);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.blog-2 .blog-sections img {
+    width: 64px;
+}
+/* blog-3 */
+.blog-3{
+    margin: 100px 0px;
+}
+.blog-3-c h1{
+    color: var(--Secondary);
+    font-size: var(--font-h-D);
+    font-family: var(--head);
+    text-align: center;
+    margin: 30px 0px;
+}
+.blog-Testmonial{
+    max-width: 1330px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.blog-Testmonial img{
+    width: 64px;
+    height: 64px;
+    border-radius: 320px;
+}
+.test-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    margin: 20px 0px;
+}
+.test-head h3{
+    font-family: var(--head);
+    font-size: var(--font-h-M);
+}
+.test-head p{
+    font-family: var(--head);
+    font-size: var(--font-p1);
+}
+.blog-Testmonial p{
+    font-family: var(--head);
+    font-size: var(--font-p1);
 }
